@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小作所預防延緩失能講義</title>
+<meta name="description" content="伊甸汐止小作所｜身心障礙者預防及延緩失能的活動設計｜鍾孟修 職能治療師">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#E8552D;--amber:#F4A93C;--teal:#028090;--ink:#12343B;--line:#E4D9CA;--soft:#F6F1EA;--teal-soft:#E3F2F2;--orange-soft:#FDEBE4;--amber-soft:#FEF3DF;--muted:#5B6B6E;--bg:#FFFDF9;--card:#fff;--green:#0B6E4F}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:16px}
+body{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--ink);font-size:16px;line-height:1.75;background:var(--bg)}
+a{color:var(--teal)}
+.layout{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;padding:24px 20px 60px}
+nav.toc{position:sticky;top:16px;align-self:start;max-height:calc(100vh - 32px);overflow:auto;font-size:14px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);padding:14px}
+nav.toc b{display:block;color:var(--orange);font-size:13px;letter-spacing:.08em;margin-bottom:6px}
+nav.toc a{display:block;text-decoration:none;color:var(--ink);padding:5px 8px;border-radius:8px;line-height:1.4}
+nav.toc a:hover,nav.toc a.on{background:var(--teal-soft);color:var(--teal)}
+nav.toc a.sub{padding-left:20px;font-size:13px;color:var(--muted)}
+main{min-width:0}
+header.cover{border-radius:20px;background:var(--ink);color:#fff;padding:30px 32px;margin-bottom:22px;position:relative;overflow:hidden}
+header.cover::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:rgba(244,169,60,.25)}
+header.cover::before{content:"";position:absolute;right:90px;bottom:-80px;width:160px;height:160px;border-radius:50%;background:rgba(2,128,144,.35)}
+header.cover .k{font-size:13px;color:var(--amber);font-weight:700;letter-spacing:.08em;position:relative}
+header.cover h1{font-size:32px;line-height:1.3;margin:6px 0 10px;font-weight:900;position:relative}
+header.cover h1 span{color:var(--amber)}
+header.cover p{color:#CFE3E3;font-size:15px;position:relative}
+header.cover .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;position:relative}
+header.cover .meta span{background:rgba(255,255,255,.12);border-radius:999px;padding:3px 12px;font-size:13px}
+h2{font-size:24px;margin:40px 0 12px;padding-left:12px;border-left:7px solid var(--orange);line-height:1.35;break-after:avoid}
+h2 small{display:block;font-size:14px;color:var(--muted);font-weight:500}
+h3{font-size:19px;margin:22px 0 6px;color:var(--teal);break-after:avoid}
+h4{font-size:16px;margin:10px 0 4px}
+p{margin:6px 0}
+ul,ol{padding-left:1.4em;margin:6px 0}
+li{margin:3px 0}
+.box{border:1.5px solid var(--line);border-radius:14px;padding:12px 16px;margin:10px 0;break-inside:avoid;background:var(--card)}
+.box.t{background:var(--teal-soft);border-color:#BFE0E0}.box.o{background:var(--orange-soft);border-color:#F6CBBB}.box.a{background:var(--amber-soft);border-color:#F6DCAC}
+.box.warn{background:#FFF4F1;border-color:var(--orange)}
+.box>b:first-child,.box>h4:first-child{color:var(--ink)}
+.tblwrap{overflow-x:auto;margin:10px 0;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:14.5px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:var(--ink);color:#fff;font-weight:700}
+tr{break-inside:avoid}
+td.k{font-weight:700;color:var(--teal);white-space:nowrap}
+.lv{display:inline-block;font-size:12px;font-weight:700;padding:0 8px;border-radius:6px;margin:0 2px;vertical-align:1px;white-space:nowrap}
+.l1{background:#DDEFE7;color:var(--green)}.l2{background:var(--teal-soft);color:var(--teal)}.l3{background:var(--amber-soft);color:#9A5B00}.l4{background:var(--orange-soft);color:#B23A17}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.grid2 .box,.grid3 .box{margin:0}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+a.lk{display:inline-flex;align-items:center;gap:6px;text-decoration:none;background:var(--card);border:1.5px solid var(--teal);color:var(--teal);border-radius:999px;padding:4px 13px;font-size:14px;font-weight:700;line-height:1.4}
+a.lk::before{content:"▶";font-size:10px}
+a.lk.yt{border-color:var(--orange);color:var(--orange)}
+a.lk:hover{background:var(--teal);color:#fff}a.lk.yt:hover{background:var(--orange);color:#fff}
+a.lk small{font-weight:400;opacity:.8}
+.linklabel{font-size:13px;color:var(--muted);font-weight:700;margin-top:10px}
+.cite{font-size:13px;color:var(--muted)}
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin:10px 0}
+.flow div{flex:1 1 120px;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:8px 10px;font-size:14px;text-align:center}
+.flow div b{display:block;color:var(--teal)}
+.flow i{align-self:center;color:var(--orange);font-style:normal;font-weight:900}
+.pill{display:inline-block;background:var(--ink);color:#fff;border-radius:999px;padding:1px 10px;font-size:13px;margin:1px 2px}
+.tag{display:inline-block;border-radius:6px;padding:0 6px;font-size:12.5px;font-weight:700;background:var(--soft);color:var(--muted)}
+/* grader widget */
+.grader{border:2px solid var(--teal);border-radius:16px;padding:14px 16px;margin:12px 0;background:var(--card)}
+.grader .row{display:flex;flex-wrap:wrap;gap:12px;margin:6px 0}
+.grader label{font-size:14px;font-weight:700;display:flex;flex-direction:column;gap:4px;flex:1 1 220px}
+.grader select{font:inherit;font-size:15px;padding:6px 8px;border-radius:10px;border:1.5px solid var(--line);background:#fff;color:var(--ink)}
+.grader .out{background:var(--soft);border-radius:12px;padding:10px 12px;margin-top:8px}
+.meter{height:12px;border-radius:999px;background:#EEE6DA;overflow:hidden;margin:6px 0}
+.meter i{display:block;height:100%;background:linear-gradient(90deg,#3DB28A,var(--amber),var(--orange));transition:width .3s}
+.check li{list-style:none;margin-left:-1.2em}
+.check input{margin-right:6px;transform:scale(1.15)}
+.timeline{display:grid;grid-template-columns:110px 1fr;gap:0;border:1.5px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card);font-size:14.5px}
+.timeline div{padding:7px 10px;border-bottom:1px solid var(--line)}
+.timeline div:nth-child(odd){font-weight:700;color:var(--teal);background:var(--teal-soft)}
+.timeline div:nth-last-child(-n+2){border-bottom:0}
+.person{border-left:5px solid var(--amber)}
+.foot{margin-top:30px;font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+.printbtn{position:fixed;right:16px;bottom:16px;background:var(--orange);color:#fff;border:0;border-radius:999px;padding:10px 18px;font:inherit;font-weight:700;box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer}
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr;padding:16px 16px 70px}
+  nav.toc{position:static;max-height:none}
+  nav.toc .subs{display:none}
+  .grid2,.grid3{grid-template-columns:1fr}
+  header.cover{padding:22px 20px}
+  header.cover h1{font-size:25px}
+  h2{font-size:21px}
+  .timeline{grid-template-columns:92px 1fr}
+}
+@media print{
+  @page{size:A4;margin:14mm 13mm}
+  body{background:#fff;font-size:10.5pt}
+  .layout{display:block;padding:0;max-width:none}
+  nav.toc,.printbtn,.grader,.noprint{display:none!important}
+  header.cover{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  th,.box,.lv,.pill,.timeline div{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a.lk{border-width:1px;padding:1px 8px;font-size:9pt}
+  a.lk::after{content:" " attr(data-short);font-weight:400;font-size:8pt;color:var(--muted)}
+  h2{font-size:15pt;margin-top:18px}
+  h3{font-size:12pt}
+  table{font-size:9.5pt}
+}
+</style>
+</head>
+<body>
+<div class="layout">
+
+<nav class="toc" aria-label="目錄">
+  <b>目錄</b>
+  <a href="#intro">課程流程與重點</a>
+  <a href="#s0">0　先認識我們的學員</a>
+  <a href="#s1">1　核心訓練模組</a>
+  <div class="subs">
+    <a class="sub" href="#s1-aer">有氧訓練</a>
+    <a class="sub" href="#s1-str">肌力訓練</a>
+    <a class="sub" href="#s1-bal">平衡訓練</a>
+    <a class="sub" href="#s1-cog">體智能訓練</a>
+  </div>
+  <a href="#s2">2　功能性訓練解析</a>
+  <a href="#s3">3　慢性病與健康關聯</a>
+  <a href="#s4">4　教案規劃與動作設計</a>
+  <div class="subs">
+    <a class="sub" href="#s4a">(a) 認知教案</a>
+    <a class="sub" href="#s4b">(b) 動作功能性</a>
+  </div>
+  <a href="#s5">5　現場應用：團體與個別</a>
+  <a href="#res">資源連結總表</a>
+</nav>
+
+<main>
+<header class="cover">
+  <div class="k">伊甸汐止小作所｜教保員・社工 專業研習講義</div>
+  <h1>身心障礙者<span>預防及延緩失能</span>的活動設計</h1>
+  <p>運動 × 認知 × 生活功能：讓每一位學員都「動得到、想得到、用得到」</p>
+  <div class="meta">
+    <span>10/24（六）13:30–16:30</span>
+    <span>講師：鍾孟修 職能治療師（愛迪樂）</span>
+    <span>對象：教保員、社工</span>
+  </div>
+</header>
+
+<section id="intro">
+<div class="box t">
+  <b>本講義重點</b>
+  <ol>
+    <li><b>核心訓練模組</b>：有氧、肌力、平衡、體智能怎麼練？怎麼「簡化」與「逐步加難」？</li>
+    <li><b>功能性訓練</b>：什麼是運動的功能性、認知的功能性？與單純的認知訓練、認知刺激有什麼不同？</li>
+    <li><b>慢性病與健康</b>：為什麼小作所學員更需要運動？規律飲食與「抑制功能」的關係。</li>
+    <li><b>教案設計</b>：懷舊教案的「連結已知 × 深度運作」，功能性認知的「配對・組合・排序・線索」，以及八大功能性動作。</li>
+    <li><b>現場應用</b>：團體差異這麼大，如何同一個活動、不同層次參與？個別活動又怎麼規劃？</li>
+  </ol>
+  <p class="cite">使用方式：本講義是網頁版，<b>藍色／橘色的膠囊按鈕都可以點</b>，直接開啟遊戲、影片與資料庫，研習中我們會邊講邊操作。右下角按鈕可列印成 A4 紙本。</p>
+  <div class="links noprint"><a class="lk" href="index.html">網頁簡報（投影用）</a><a class="lk" href="handout.pdf" target="_blank" rel="noopener">講義 PDF</a></div>
+</div>
+
+<h3>課程流程</h3>
+<div class="timeline">
+  <div>13:30–13:45</div><div>開場暖身（節奏遊戲）＋ 先認識我們的學員</div>
+  <div>13:45–14:25</div><div>單元一　核心訓練模組（實作：有氧步伐、坐站、平衡、體智分級）</div>
+  <div>14:25–14:50</div><div>單元二　功能性訓練解析（運動的功能性 vs 認知的功能性）</div>
+  <div>14:50–15:00</div><div>休息</div>
+  <div>15:00–15:15</div><div>單元三　慢性病與健康關聯（久坐、代謝、飲食與抑制功能）</div>
+  <div>15:15–16:00</div><div>單元四　教案規劃與動作設計（實作：懷舊分析、四大機制、八大動作）</div>
+  <div>16:00–16:25</div><div>單元五　現場應用（分組演練：同一活動三種層次）</div>
+  <div>16:25–16:30</div><div>Q&amp;A・回饋</div>
+</div>
+<div class="linklabel">開場暖身：節奏遊戲</div>
+<div class="links">
+  <a class="lk" href="https://saythewordonbeat.com" target="_blank" rel="noopener">Say the Word on Beat<small>跟著節拍說出圖片</small></a>
+  <a class="lk" href="https://mattsue1003.github.io/beatgame2/" target="_blank" rel="noopener">節拍遊戲</a>
+  <a class="lk yt" href="https://www.youtube.com/watch?v=EacbpnrNHOU&list=PLT-q6z8QijNAx-My6Ew7OL9iEmTwhu-VU" target="_blank" rel="noopener">節奏挑戰影片清單</a>
+</div>
+</section>
+
+<!-- ============ 0 ============ -->
+<section id="s0">
+<h2>0　先認識我們的學員<small>小作所的「預防及延緩失能」為什麼不一樣？</small></h2>
+
+<div class="grid3">
+  <div class="box">
+    <h4>智能障礙</h4>
+    <ul>
+      <li>理解抽象指令較慢，<b>看示範</b>比聽說明有效</li>
+      <li>老化跡象常比一般人提早出現（體力、記憶、動作速度）</li>
+      <li><b>唐氏症</b>者罹患阿茲海默症的風險較高、發病年齡較早；部分有寰樞椎不穩定，避免頸部過度屈曲、翻滾、頭頂地</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h4>自閉症</h4>
+    <ul>
+      <li>喜歡<b>可預測</b>的流程，改變需事先預告</li>
+      <li>感覺處理差異：音樂太大聲、身體碰觸、擁擠都可能造成不適</li>
+      <li>固著興趣可以變成<b>動機的入口</b>（例如喜歡火車 → 「火車排隊」排序遊戲）</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h4>多重障礙</h4>
+    <ul>
+      <li>可能合併肢體、視聽、癲癇、語言表達困難</li>
+      <li>需要<b>坐姿版本</b>與<b>輔具支持</b>（扶手、穩定椅、加大道具）</li>
+      <li>參與不一定是「做完全部」，而是做得到的那一段</li>
+    </ul>
+  </div>
+</div>
+
+<div class="box o">
+  <b>共同的樣貌：</b>手腳功能大多 OK，但受認知影響，整體出現<b>體能衰弱（久坐、肌力下降、平衡差）</b>、<b>認知退化（反應慢、記不住流程）</b>與<b>慢性病（肥胖、三高、便秘、骨質疏鬆）</b>三方面的退化。<br>
+  所以小作所的預防及延緩失能，目標不是「練成運動員」，而是<b>守住並延長「能在作業所工作、能自己生活」的功能</b>。
+</div>
+
+<h3>核心觀念：復能 ＝ 訓練 ＋ 支持</h3>
+<div class="tblwrap"><table>
+  <tr><th style="width:18%"></th><th>復健思維</th><th>復能思維</th></tr>
+  <tr><td class="k">中心</td><td>疾病、能力</td><td>人、功能（他想做、需要做的事）</td></tr>
+  <tr><td class="k">問的問題</td><td>「腳沒有力氣」</td><td>「走不到作業區、不能自己去買午餐」</td></tr>
+  <tr><td class="k">做法</td><td>訓練身體能力</td><td>訓練＋支持：<span class="pill">輔具</span><span class="pill">環境</span><span class="pill">策略</span><span class="pill">資源</span><span class="pill">轉念</span><span class="pill">訓練</span></td></tr>
+</table></div>
+<p>活動分析的三個步驟：<b>發現困難 → 釐清原因 → 處理原因</b>。同樣是「不參加運動」，可能是聽不懂、怕吵、太難、太簡單、身體痛、或只是不知道什麼時候開始——原因不同，處理方式就不同。</p>
+<p class="cite">自立支援 ≠ 自己靠自己；自立支援＝在支持下「自主決定生活、不被限制」。</p>
+</section>
+
+<!-- ============ 1 ============ -->
+<section id="s1">
+<h2>1　核心訓練模組<small>有氧・肌力・平衡・體智能：先簡化，再逐步加難</small></h2>
+
+<div class="box t">
+  <b>建議運動量（WHO 2020 指引，已納入身心障礙者）</b>
+  <ul>
+    <li>每週 <b>150–300 分鐘</b>中等強度有氧（可分次累積，每一次活動都算數）</li>
+    <li>每週 <b>2 天以上</b>肌力訓練；有跌倒風險或年紀較長者，每週 <b>3 天</b>多元訓練（平衡＋肌力）</li>
+    <li><b>減少久坐</b>，做一點比完全不做好，從做得到的量開始</li>
+  </ul>
+  <p class="cite">強度簡易判斷：「講話測試」——可以講話但沒辦法唱歌＝中等強度；講不出完整句子＝太喘，要放慢。</p>
+</div>
+
+<h3>六個萬用「難度旋鈕」</h3>
+<p>任何活動都可以用以下旋鈕簡化或加難，<b>一次只轉一個</b>，學員成功 2–3 次再往上調：</p>
+<div class="tblwrap"><table>
+  <tr><th style="width:17%">旋鈕</th><th>簡化 <span class="lv l1">L1</span></th><th>→</th><th>加難 <span class="lv l4">L4</span></th></tr>
+  <tr><td class="k">姿勢／支撐</td><td>坐姿、雙手扶椅</td><td>站姿扶椅 → 單手扶</td><td>徒手站、移動中</td></tr>
+  <tr><td class="k">速度／節奏</td><td>慢、自己的速度</td><td>固定節拍 80–100 bpm</td><td>100–120 bpm 以上、變速</td></tr>
+  <tr><td class="k">動作複雜度</td><td>單一動作、單側</td><td>雙側同步</td><td>上下肢不同步、交叉、轉向</td></tr>
+  <tr><td class="k">負荷／量</td><td>自身體重、少次數</td><td>彈力帶、水瓶</td><td>負重、多組、拉長時間</td></tr>
+  <tr><td class="k">提示量</td><td>肢體協助＋示範</td><td>示範＋手勢</td><td>只給口語或圖卡</td></tr>
+  <tr><td class="k">認知負荷</td><td>不加認知任務</td><td>順數、跟著喊</td><td>倒數、規則切換、抑制（看到紅色不動）</td></tr>
+</table></div>
+
+<h3 id="s1-aer">1-1　有氧訓練</h3>
+<p><b>目標：</b>心肺耐力、體重與血糖控制、情緒穩定。小作所最容易融入的是<b>每天固定時段的音樂律動、走路、超慢跑</b>。</p>
+<div class="tblwrap"><table>
+  <tr><th style="width:14%">分級</th><th>做法</th><th style="width:30%">帶領提示</th></tr>
+  <tr><td><span class="lv l1">L1</span></td><td>坐姿踏步、坐姿抬膝、坐姿拍手（60–90 bpm）</td><td>先跟著拍手抓節奏，不求對拍</td></tr>
+  <tr><td><span class="lv l2">L2</span></td><td>站姿踏步、前抬膝、踏併步、腳跟點（100 bpm）</td><td>一個動作做 8 拍×4 次再換</td></tr>
+  <tr><td><span class="lv l3">L3</span></td><td>V 字步、曼波、側點步、後勾、超慢跑（100–120 bpm）</td><td>兩個步伐組合成「小套路」</td></tr>
+  <tr><td><span class="lv l4">L4</span></td><td>交叉步、麻花步、轉身、農夫走路、超慢跑加認知指令</td><td>加入方向變化或口令切換</td></tr>
+</table></div>
+<p class="cite">有氧步伐 16 式：踏步、前抬膝、跨步抬膝、踏併步、V 字步、後勾、側／後弓箭步、曼波、恰恰、側點步、開合跳、腳跟點、側／背跨蹲、交叉步、麻花步、扭轉步。節拍原則：60 bpm＝一秒一拍，120 bpm＝一秒兩拍；太難就降到 120 以下，要加難度再往上。</p>
+<div class="links">
+  <a class="lk yt" href="https://youtu.be/Yyd5VYJXjw8" target="_blank" rel="noopener" data-short="youtu.be/Yyd5VYJXjw8">坐站姿節奏大腦運動<small>100–120 bpm</small></a>
+  <a class="lk" href="https://mattsue1003.github.io/follow-jogging-db/" target="_blank" rel="noopener">超慢跑跟跑影片資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/danaerobic/" target="_blank" rel="noopener">舞蹈有氧影片資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/oldsongdance/" target="_blank" rel="noopener">老歌律動</a>
+  <a class="lk" href="https://mattsue1003.github.io/rhythmexercise/" target="_blank" rel="noopener">長輩律動產生器</a>
+  <a class="lk" href="https://reurl.cc/v7yeko" target="_blank" rel="noopener" data-short="reurl.cc/v7yeko">直線操作形式</a>
+</div>
+
+<h3 id="s1-str">1-2　肌力訓練</h3>
+<p><b>目標：</b>守住「站得起來、走得動、搬得動」。<b>訓練原則：</b>以「微酸感」為準——<b>超負荷</b>（比平常多一點）、<b>漸進性</b>（慢慢加）、<b>特殊性</b>（練什麼就進步什麼）、<b>可逆性</b>（停練就退步）。</p>
+<div class="box a">
+  <b>復能之王：坐站（Sit to Stand）</b><br>
+  一週 3 次，一次分段加總 <b>100–600 下</b>（例如每天作業前、午餐前、下班前各做 10 下 × 數組）。它同時練到下肢肌力、平衡、如廁與上下車的功能。<br>
+  衰弱者四個提升目標：<span class="pill">坐的時間</span><span class="pill">站立時間</span><span class="pill">坐站次數</span><span class="pill">走路距離與時間</span>
+</div>
+<div class="tblwrap"><table>
+  <tr><th style="width:14%">分級</th><th>下肢（坐站）</th><th>上肢／軀幹</th></tr>
+  <tr><td><span class="lv l1">L1</span></td><td>高椅＋雙手扶扶手站起；或坐姿抬腿、夾球（等長收縮）</td><td>坐姿推手、握毛巾擰、壓球</td></tr>
+  <tr><td><span class="lv l2">L2</span></td><td>一般椅子、雙手交叉胸前站起</td><td>彈力帶划船、推牆</td></tr>
+  <tr><td><span class="lv l3">L3</span></td><td>慢慢坐下 3 秒（離心）、矮椅、抱水瓶站起</td><td>彈力帶上推、拉開；橋式</td></tr>
+  <tr><td><span class="lv l4">L4</span></td><td>徒手深蹲、弓箭步、30 秒坐站計次挑戰</td><td>搬運物品走、單腳橋式、鳥狗式</td></tr>
+</table></div>
+<p class="cite">收縮方式由易到難：等長（用力不動）→ 向心（出力抬起）→ 離心（慢慢放下）。</p>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/band-exercise-database/" target="_blank" rel="noopener">彈力帶・椅子動作資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/coremuscle/" target="_blank" rel="noopener">核心訓練影片資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/3d-core-muscle/" target="_blank" rel="noopener">3D 核心訓練資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/exercisemovdara/" target="_blank" rel="noopener">樂齡運動教案資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/2026-acsm-muscle/" target="_blank" rel="noopener">2026 ACSM 阻力訓練新指引</a>
+</div>
+
+<h3 id="s1-bal">1-3　平衡訓練</h3>
+<p><b>目標：</b>預防跌倒、走路更穩。平衡的難度主要來自<b>支撐面變小、重心移動、視覺減少、加入第二個任務</b>。</p>
+<div class="tblwrap"><table>
+  <tr><th style="width:14%">分級</th><th>靜態平衡</th><th>動態平衡</th></tr>
+  <tr><td><span class="lv l1">L1</span></td><td>扶椅雙腳併攏站 10 秒</td><td>扶椅左右移重心、坐姿伸手拿物</td></tr>
+  <tr><td><span class="lv l2">L2</span></td><td>半前後站（腳跟對腳弓）</td><td>交替踏椅（腳尖輕點小凳）、側走</td></tr>
+  <tr><td><span class="lv l3">L3</span></td><td>前後一直線站、單腳站（扶）</td><td>直線走、跨障礙、繩梯</td></tr>
+  <tr><td><span class="lv l4">L4</span></td><td>單腳站＋轉頭／接球</td><td>踮腳走、倒退走、走路中轉身拿物</td></tr>
+</table></div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/balance-exercise-guide/" target="_blank" rel="noopener">4 招居家平衡訓練（動作圖解）</a>
+  <a class="lk" href="https://reurl.cc/9Gvzy8" target="_blank" rel="noopener" data-short="reurl.cc/9Gvzy8">敏捷繩梯教案</a>
+  <a class="lk" href="https://reurl.cc/eOeD6W" target="_blank" rel="noopener" data-short="reurl.cc/eOeD6W">四色繩梯</a>
+  <a class="lk" href="https://reurl.cc/VDzamR" target="_blank" rel="noopener" data-short="reurl.cc/VDzamR">方塊踏步體智步伐</a>
+</div>
+
+<h3 id="s1-cog">1-4　體智能訓練（Cognicise）</h3>
+<p>在同一個活動中，<b>有目的地結合身體動作與認知挑戰</b>。三種分類：</p>
+<div class="tblwrap"><table>
+  <tr><th style="width:18%">分類</th><th>運動與認知的關係</th><th style="width:34%">小作所例子</th></tr>
+  <tr><td class="k">合併型</td><td>必須完成認知任務才能完成動作，<b>最貼近生活</b></td><td>依購物單走到對應顏色角錐拿「商品」</td></tr>
+  <tr><td class="k">附加型</td><td>同時進行，認知是額外加上的</td><td>踏步時一起數 1–10、念星期</td></tr>
+  <tr><td class="k">交替型</td><td>先運動、再動腦，輪流進行</td><td>律動 5 分鐘 → 配對桌遊 5 分鐘</td></tr>
+</table></div>
+<div class="box warn">
+  <b>水能載舟，亦能覆舟：</b>負荷要用「<b>簡單運動 ＋ 主要思考</b>」或「<b>簡單思考 ＋ 主要運動</b>」，不要兩邊都難。對智能障礙學員，建議<b>先交替型 → 再附加型 → 最後合併型</b>；動作不穩的學員，先在坐姿做體智。
+</div>
+
+<h4>活動分級排列組合器（研習互動）</h4>
+<div class="grader" id="grader">
+  <div class="row">
+    <label>動作難度
+      <select id="gMove">
+        <option value="1">L1 坐姿踏步</option>
+        <option value="2" selected>L2 站姿扶椅踏步</option>
+        <option value="3">L3 站姿 V 字步</option>
+        <option value="4">L4 登階／繩梯前進</option>
+      </select>
+    </label>
+    <label>認知難度
+      <select id="gCog">
+        <option value="0">C0 不加認知</option>
+        <option value="1" selected>C1 跟著喊 1–10</option>
+        <option value="2">C2 念 12 生肖／星期</option>
+        <option value="3">C3 倒著念</option>
+        <option value="4">C4 規則切換：數到 3 的倍數拍手</option>
+      </select>
+    </label>
+  </div>
+  <div class="out">
+    <div id="gText"></div>
+    <div class="meter"><i id="gBar"></i></div>
+    <div id="gAdv" class="cite"></div>
+  </div>
+</div>
+
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/cognicise-database/" target="_blank" rel="noopener">體智共創｜認知運動教案資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/cogniciseanimation/" target="_blank" rel="noopener">體智動畫</a>
+  <a class="lk" href="https://mattsue1003.github.io/picturecognicise/" target="_blank" rel="noopener">體智動畫產生器</a>
+  <a class="lk" href="https://mattsue1003.github.io/cognitive-reaction-animation/" target="_blank" rel="noopener">反應動作動畫產生器</a>
+  <a class="lk" href="https://mattsue1003.github.io/arrow/" target="_blank" rel="noopener">箭頭反應</a>
+  <a class="lk" href="https://mattsue1003.github.io/mathpaperscissorstone/" target="_blank" rel="noopener">數字剪刀石頭布</a>
+  <a class="lk" href="https://mattsue1003.github.io/runmath/" target="_blank" rel="noopener">跑步算數</a>
+  <a class="lk" href="https://mattsue1003.github.io/temponumber/" target="_blank" rel="noopener">節奏數字</a>
+  <a class="lk" href="https://mattsue.my.canva.site/dagogomuzcy" target="_blank" rel="noopener">手指操・節奏體智</a>
+  <a class="lk yt" href="https://youtu.be/1zIEGxapySE" target="_blank" rel="noopener" data-short="youtu.be/1zIEGxapySE">Cognicise 參考影片</a>
+</div>
+</section>
+
+<!-- ============ 2 ============ -->
+<section id="s2">
+<h2>2　功能性訓練解析<small>練的東西，要「搬得回生活」</small></h2>
+
+<div class="box o">
+  <b>功能性訓練的定義：</b>以<b>日常生活與工作所需的動作或思考</b>為目標，用接近真實情境的方式練習，讓訓練效果能「遷移」到生活中。
+</div>
+
+<h3>功能性連續光譜</h3>
+<div class="flow">
+  <div><b>孤立型</b>單一關節、單一肌群<br><small>例：坐著抬腿</small></div><i>→</i>
+  <div><b>整合型</b>多關節、多肌群一起<br><small>例：坐站、深蹲</small></div><i>→</i>
+  <div><b>生活化</b>放進真實任務<br><small>例：蹲下拿箱子放上架</small></div>
+</div>
+<p>越往右，功能性越高，但對控制與安全的要求也越高。<b>對衰弱或不理解指令的學員，可以從左邊開始，但目標要指向右邊。</b></p>
+
+<h3>運動的功能性 vs 認知的功能性</h3>
+<div class="grid2">
+  <div class="box t">
+    <h4>運動的功能性</h4>
+    <p>練的是<b>生活與工作會用到的動作模式</b>：走路、深蹲、弓步、延伸、旋轉、抬舉搬運、推拉、跳躍（詳見單元四 b）。</p>
+    <p class="cite">例：作業所的包裝工作要「蹲下拿料 → 起身 → 轉身放到桌上」，就是深蹲＋抬舉＋旋轉的組合。</p>
+  </div>
+  <div class="box t">
+    <h4>認知的功能性</h4>
+    <p>練的是<b>認知在自我照顧與日常活動中的運用</b>：記得工作步驟、找到物品、照順序完成、看提示做決定、忍住不該做的事。</p>
+    <p class="cite">例：依「備餐圖卡」照順序擺好餐具，比單純玩記憶翻牌更直接用得到。</p>
+  </div>
+</div>
+
+<h3>認知活動的光譜：刺激、訓練、復能、功能性認知</h3>
+<div class="tblwrap"><table>
+  <tr><th style="width:16%">類型</th><th>做什麼</th><th style="width:26%">例子</th><th style="width:22%">限制／提醒</th></tr>
+  <tr><td class="k">認知刺激</td><td>透過五感、聊天、懷舊、團體活動，<b>廣泛地喚醒</b>大腦與社會互動</td><td>看老照片聊天、聽歌、手作、學習療法（動手、動口、動腦）</td><td>容易進行，但<b>有輸出才有效果</b>：要讓學員說、做、選</td></tr>
+  <tr><td class="k">認知訓練</td><td>針對特定能力（注意力、記憶力、執行功能）<b>反覆練習</b>、逐步加難</td><td>舒爾特方格、記憶翻牌、抑制控制遊戲</td><td>練了會進步，但<b>不一定會遷移</b>到生活</td></tr>
+  <tr><td class="k">認知復能</td><td>以<b>個人生活目標</b>為主：本來會做的事、新的角色與學習</td><td>重新學會自己搭公車、記得領藥</td><td>需要個別化目標與支持策略</td></tr>
+  <tr><td class="k">功能性認知</td><td>把認知機制<b>嵌入生活任務</b>：配對、組合、排序、線索</td><td>襪子配對、湊出 50 元、洗手步驟排序、照提示找物</td><td>小作所最推薦，兼具<b>訓練與生活意義</b></td></tr>
+</table></div>
+<div class="box a">
+  <b>一句話分辨：</b>認知刺激「讓大腦醒來」；認知訓練「讓某項能力變強」；功能性認知「讓能力用在生活裡」。<br>
+  功能性訓練＝<b>身體的功能性動作</b> ＋ <b>認知的功能性任務</b>，兩者合併就是最貼近生活的「合併型體智活動」。
+</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/functional-training-lesson/" target="_blank" rel="noopener">站起來才算數：功能性訓練互動課</a>
+  <a class="lk" href="https://mattsue1003.github.io/dementia-risk-reduction-2026/html/index.html" target="_blank" rel="noopener">WHO 失智風險降低指南整理</a>
+</div>
+</section>
+
+<!-- ============ 3 ============ -->
+<section id="s3">
+<h2>3　慢性病與健康關聯<small>運動、規律飲食、抑制功能，是同一條鎖鏈</small></h2>
+
+<h3>為什麼小作所學員更需要動？</h3>
+<ul>
+  <li><b>活動量偏低、久坐時間長</b>：作業多為坐姿，交通依賴接送。</li>
+  <li><b>體重與代謝風險高</b>：部分精神科或抗癲癇用藥可能增加食慾與體重；加上飲食自我控制較困難。</li>
+  <li><b>常見健康問題</b>：肥胖、高血壓、糖尿病、高血脂、便秘、骨質疏鬆、睡眠問題、提早老化與失智風險。</li>
+</ul>
+
+<div class="grid2">
+  <div class="box">
+    <h4>久坐傷身的機轉</h4>
+    <p>久坐 → 肌肉中分解脂肪的酵素（LPL）活性下降 → 好膽固醇（HDL）下降、血糖代謝變差 → 慢性低度發炎。</p>
+    <p><b>對策：「運動點心」</b>——每 30–60 分鐘起身 1–3 分鐘：站起來坐下 10 次、原地踏步、伸展。研究顯示，打斷久坐就能明顯改善餐後血糖。</p>
+  </div>
+  <div class="box">
+    <h4>慢性發炎與疼痛</h4>
+    <p>肥胖、糖尿病、代謝症候群會造成<b>代謝性發炎</b>，讓疼痛更敏感，也讓運動的止痛效果變差。</p>
+    <p>處理方向：規律運動（肌力＋有氧）、睡眠、紓壓、少精緻糖與加工食品、多蔬果原型食物。核心訊息是：<b>「動，是安全的」</b>。</p>
+  </div>
+</div>
+
+<h3>規律飲食：自立支援「三不四要」</h3>
+<div class="grid2">
+  <div class="box t"><b>三不：</b>不臥床、不包尿布、不約束</div>
+  <div class="box t"><b>四要：</b>每天喝水約 <b>1500 cc</b>、每天約 <b>1500 大卡</b>、每天運動 <b>30 分鐘</b>、<b>3 天</b>至少排便一次<br><span class="cite">（水量、熱量依個人體型與醫囑調整）</span></div>
+</div>
+<p>運動和飲食是互相支撐的：運動促進腸胃蠕動、改善便秘與食慾調節；<b>固定時間吃飯、固定時間運動</b>，讓身體節律與作業所作息一致，也讓學員更有可預測性。</p>
+
+<h3>抑制功能：飲食控制背後的大腦能力</h3>
+<div class="box o">
+  <b>執行功能</b>包括：組織計畫、<b>抑制功能</b>、認知轉換彈性。<br>
+  <b>抑制功能</b>＝「忍住不做」的能力：忍住不多拿點心、不搶先、輪到別人時等一下、看到紅燈停下來。<br>
+  很多學員「知道」不能多吃，卻「做不到」——卡住的常常不是知識，而是抑制功能。
+</div>
+<ul>
+  <li><b>練抑制，就是練生活：</b>紅綠燈遊戲（綠燈走、紅燈停）、「聽到『水果』才拍手」、看到指定顏色不能動。</li>
+  <li><b>運動本身能幫抑制功能：</b>規律有氧與體智活動對執行功能有正面影響。</li>
+  <li><b>環境支持比意志力更有效：</b>點心分裝成小份、用視覺化餐盤、固定座位與用餐流程、減少零食出現在視線內。</li>
+</ul>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/inhibition" target="_blank" rel="noopener">抑制功能：數值數量干擾</a>
+  <a class="lk" href="https://mattsue1003.github.io/tworules/" target="_blank" rel="noopener">雙重規則篩選</a>
+  <a class="lk" href="https://mattsue1003.github.io/shiftattention/" target="_blank" rel="noopener">交替性認知</a>
+  <a class="lk" href="https://mattsue1003.github.io/nutritionlabel/" target="_blank" rel="noopener">營養標示怎麼看</a>
+  <a class="lk" href="https://mattsue1003.github.io/food-label-guide/" target="_blank" rel="noopener">食品標籤互動簡報</a>
+  <a class="lk" href="https://mattsue1003.github.io/chronic-disease-health-education/" target="_blank" rel="noopener">慢性病互動教學簡報</a>
+  <a class="lk" href="https://mattsue1003.github.io/preventing-sarcopenia/" target="_blank" rel="noopener">預防肌少症</a>
+</div>
+
+<h3>運動前安全檢核</h3>
+<ul class="check">
+  <li><label><input type="checkbox">今天精神與情緒狀況如何？（不舒服就降級或休息）</label></li>
+  <li><label><input type="checkbox">高血壓學員：運動前量血壓，明顯偏高時先休息、不做憋氣與用力推舉</label></li>
+  <li><label><input type="checkbox">糖尿病學員：避免空腹運動，準備糖果或果汁</label></li>
+  <li><label><input type="checkbox">癲癇學員：避免高處、疲勞過度；準備軟墊與安全空間</label></li>
+  <li><label><input type="checkbox">唐氏症學員：避免頸部過度屈曲、翻滾、頭部撞擊動作</label></li>
+  <li><label><input type="checkbox">骨質疏鬆、體重過重：跳躍改為墊腳尖或低衝擊版本</label></li>
+  <li><label><input type="checkbox">場地：地面防滑、椅子穩固（靠牆）、動線淨空、水已準備</label></li>
+</ul>
+</section>
+
+<!-- ============ 4 ============ -->
+<section id="s4">
+<h2>4　教案規劃與動作設計</h2>
+
+<h3 id="s4a">4(a)　認知教案</h3>
+
+<h4>學習的兩條路：連結已知 × 深度運作</h4>
+<div class="grid2">
+  <div class="box t">
+    <h4>連結已知</h4>
+    <p>從<b>學員已經知道、本來會做</b>的經驗出發，用熟悉的記憶、物品、技能來勾連新的內容。</p>
+    <p class="cite">特色：容易參與、情緒安全、成功率高。適合破冰、暖身、能力較弱者。</p>
+  </div>
+  <div class="box o">
+    <h4>深度運作</h4>
+    <p>需要<b>專注思考、加工整理</b>：比較、分類、排序、推理、說出理由、創造新的東西。</p>
+    <p class="cite">特色：認知負荷較高、訓練效果較強。適合主活動、能力較好者。</p>
+  </div>
+</div>
+
+<h4>懷舊教案的應用分析：同一個主題，兩種深度</h4>
+<div class="box a">
+  <b>提醒：小作所學員的「懷舊」不是長輩的老歌。</b>學員多在 20–50 歲，懷舊素材要用<b>他們自己的年代與生活</b>：小時候的卡通、零食、玩具、偶像、學校生活、家人照片、作業所過去的活動照片。
+</div>
+<div class="tblwrap"><table>
+  <tr><th style="width:16%">主題</th><th>連結已知（容易）</th><th>深度運作（加難）</th></tr>
+  <tr><td class="k">古早零食・柑仔店</td><td>看零食照片說出名字、「你吃過嗎？」舉手、摸摸看實物</td><td>把零食依價錢排序、用 50 元組合出想買的零食、比較以前和現在的價格</td></tr>
+  <tr><td class="k">卡通與偶像</td><td>聽主題曲前奏猜卡通、跟著唱</td><td>依年代把卡通排順序、說出角色的特點、分組編一段新劇情</td></tr>
+  <tr><td class="k">我的家人</td><td>看自己的家庭照片指出「這是誰」</td><td>做「我的一天」時間軸：誰陪我做什麼、按時間排好</td></tr>
+  <tr><td class="k">台灣大事・節日</td><td>過年吃什麼？放鞭炮、發紅包的經驗分享</td><td>節日卡片依月份排序、配對節日與食物、找出不屬於這個節日的東西</td></tr>
+</table></div>
+<p><b>分析步驟：</b>① 選一個學員有共同經驗的主題 → ② 先用「連結已知」暖身、讓每個人都能成功 → ③ 再依能力加入「深度運作」任務 → ④ 回到生活（例如真的去合作社用 50 元買東西）。</p>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/old-story-interaction/" target="_blank" rel="noopener">老時代・懷舊活動資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/taiwan-story-cards/" target="_blank" rel="noopener">台灣重要事件互動圖卡</a>
+  <a class="lk" href="https://mattsue1003.github.io/picturepastnow/" target="_blank" rel="noopener">今昔照片猜猜看</a>
+  <a class="lk" href="https://mattsue1003.github.io/old-toys-game-rules/" target="_blank" rel="noopener">懷舊童玩資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/pop-song-guess/" target="_blank" rel="noopener">流行金曲猜歌</a>
+  <a class="lk" href="https://mattsue1003.github.io/foodintro/" target="_blank" rel="noopener">食物猜猜看</a>
+  <a class="lk" href="https://mattsue1003.github.io/taiwansentence/" target="_blank" rel="noopener">台語俗諺</a>
+  <a class="lk yt" href="https://www.youtube.com/watch?v=7LCMz0h6MJA" target="_blank" rel="noopener">沙包「一放雞」示範</a>
+  <a class="lk yt" href="https://www.youtube.com/watch?v=uAnvABUxUhQ" target="_blank" rel="noopener">翁仔標兩種玩法</a>
+</div>
+
+<h4>功能性認知四大機制：配對・組合・排序・線索</h4>
+<div class="tblwrap"><table>
+  <tr><th style="width:11%">機制</th><th style="width:19%">定義</th><th style="width:22%">生活／工作對應</th><th>小作所活動範例與分級</th><th style="width:20%">可用工具</th></tr>
+  <tr>
+    <td class="k">配對</td><td>尋找相同或相似，<b>只有一個答案</b></td><td>襪子成對、餐具歸位、零件分類、找自己的置物櫃</td>
+    <td><span class="lv l1">易</span>顏色相同放一起<br><span class="lv l3">難</span>找「用途相同」的（牙刷↔牙膏）、記憶翻牌</td>
+    <td><a href="https://mattsue1003.github.io/memorygame/" target="_blank" rel="noopener">記憶翻牌</a>、<a href="https://mattsue1003.github.io/twopairsppic/" target="_blank" rel="noopener">找兩張相同</a>、<a href="https://mattsue1003.github.io/samepic/" target="_blank" rel="noopener">找相同圖案</a></td>
+  </tr>
+  <tr>
+    <td class="k">組合</td><td>把元素組起來，<b>答案有很多種</b></td><td>湊錢付款、便當配菜、穿搭、包裝組合</td>
+    <td><span class="lv l1">易</span>用 10 元、5 元、1 元湊 20 元<br><span class="lv l3">難</span>九宮格加總相等、用 100 元買 3 樣東西</td>
+    <td><a href="https://mattsue1003.github.io/3x3number/" target="_blank" rel="noopener">3×3 數字組合</a>、<a href="https://mattsue1003.github.io/shopping/" target="_blank" rel="noopener">超市購物計算</a>、<a href="https://mattsue1003.github.io/100shopping/" target="_blank" rel="noopener">百元購物</a></td>
+  </tr>
+  <tr>
+    <td class="k">排序</td><td>有<b>比較</b>的概念：大小、多少、先後</td><td>工作步驟、洗手刷牙順序、一天作息、物品由大到小上架</td>
+    <td><span class="lv l1">易</span>3 張步驟圖卡排順序<br><span class="lv l3">難</span>撲克牌 1–13 排序、依年代排事件</td>
+    <td><a href="https://mattsue1003.github.io/numberorder/" target="_blank" rel="noopener">數字排列快手</a>、<a href="https://mattsue1003.github.io/colororder/" target="_blank" rel="noopener">顏色排序快手</a>、<a href="https://mattsue1003.github.io/boardgame1-13/" target="_blank" rel="noopener">1–13 桌遊</a></td>
+  </tr>
+  <tr>
+    <td class="k">線索</td><td>尋找、探索、<b>發現解答</b></td><td>找東西、看標示找廁所、依提示完成任務、猜謎</td>
+    <td><span class="lv l1">易</span>看圖片提示找出教室裡的物品<br><span class="lv l3">難</span>三個提示猜一樣東西、尋寶任務卡</td>
+    <td><a href="https://mattsue1003.github.io/findgame/" target="_blank" rel="noopener">找找看</a>、<a href="https://mattsue1003.github.io/animal-guessing/" target="_blank" rel="noopener">猜動物</a>、<a href="https://mattsue1003.github.io/thinkanswer/" target="_blank" rel="noopener">思考作答</a></td>
+  </tr>
+</table></div>
+<div class="box t">
+  <b>怎麼搭配？公式：機制 × 素材 × 動作</b>
+  <ul>
+    <li><b>配對 × 水果 × 走路</b>：拿到水果圖卡，走到同顏色的籃子放進去。</li>
+    <li><b>排序 × 洗手步驟 × 蹲撿</b>：地上散落 5 張步驟卡，蹲下撿起並照順序貼到白板。</li>
+    <li><b>組合 × 錢幣 × 推拉</b>：用彈力帶拉 1 下得 1 元，湊到便當的價錢就「買到午餐」。</li>
+    <li><b>線索 × 作業所物品 × 搬運</b>：依提示卡找到指定箱子，雙手搬到工作檯。</li>
+  </ul>
+  <p class="cite">四大機制也可以兩兩合併：先配對分類，再排序；或先看線索找到物品，再組合成套。</p>
+</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/poker-dice-game/" target="_blank" rel="noopener">撲克骰子（四大機制）</a>
+  <a class="lk" href="https://mattsue1003.github.io/pokerrandom/" target="_blank" rel="noopener">撲克隨機</a>
+  <a class="lk" href="https://mattsue1003.github.io/Bingo-new/" target="_blank" rel="noopener">骰子賓果</a>
+  <a class="lk" href="https://mattsue1003.github.io/colorcards" target="_blank" rel="noopener">形色牌</a>
+  <a class="lk" href="https://mattsue1003.github.io/schultetable/" target="_blank" rel="noopener">舒爾特方格</a>
+  <a class="lk" href="https://mattsue1003.github.io/cognitive-playbook-generator/" target="_blank" rel="noopener">認知手冊生成器</a>
+  <a class="lk" href="https://mattsue1003.github.io/timepaper/" target="_blank" rel="noopener">時鐘練習單</a>
+</div>
+
+<h3 id="s4b">4(b)　動作功能性：八大功能性動作</h3>
+<p>參考 MAT（Movement Assessment Technologies）的功能性動作分類，並對應小作所學員的生活與工作。對<b>中重度智能障礙者</b>，特別推薦：<span class="pill">坐站肌力</span><span class="pill">地面取物</span><span class="pill">交替踏椅平衡</span><span class="pill">爬樓梯</span><span class="pill">低衝擊跳躍（骨密度）</span>。</p>
+<div class="tblwrap"><table>
+  <tr><th style="width:12%">動作</th><th style="width:17%">生活／作業對應</th><th>分級 L1 → L4</th><th style="width:22%">帶領口訣／安全</th></tr>
+  <tr><td class="k">深蹲</td><td>坐下站起、如廁、上下車</td><td><span class="lv l1">L1</span>扶手坐站 <span class="lv l2">L2</span>雙手前伸坐站 <span class="lv l3">L3</span>扶椅半蹲 <span class="lv l4">L4</span>徒手深蹲、抱物深蹲</td><td>「屁股往後坐、鼻子過腳尖」；膝蓋對準腳尖</td></tr>
+  <tr><td class="k">弓箭步蹲</td><td>上樓梯、跨步、蹲低單膝跪拿東西</td><td><span class="lv l1">L1</span>扶椅分腿站 <span class="lv l2">L2</span>扶桌靜態弓步 <span class="lv l3">L3</span>前跨一步回來 <span class="lv l4">L4</span>弓步＋轉身傳物</td><td>旁邊放椅子或桌子當扶手；步伐不用大</td></tr>
+  <tr><td class="k">走路</td><td>通勤、移動到作業區、購物</td><td><span class="lv l1">L1</span>陪走、扶走 <span class="lv l2">L2</span>直線走、側走 <span class="lv l3">L3</span>跨障礙、上下坡、超慢跑 <span class="lv l4">L4</span>農夫走路（提重物走）、走路＋認知指令</td><td>走路是基本功：安全 → 速度 → 距離 → 強度</td></tr>
+  <tr><td class="k">軀幹延伸</td><td>擦桌、晾衣、高處拿物</td><td><span class="lv l1">L1</span>坐姿雙手上舉 <span class="lv l2">L2</span>坐姿前彎摸膝、側彎拿物 <span class="lv l3">L3</span>站姿延伸摸高處貼紙 <span class="lv l4">L4</span>單腳站延伸</td><td>軀幹要更早訓練；背保持一直線</td></tr>
+  <tr><td class="k">前後左右旋轉</td><td>轉身拿物、傳遞、倒車看後方</td><td><span class="lv l1">L1</span>坐姿左右轉看人 <span class="lv l2">L2</span>坐姿左右傳球 <span class="lv l3">L3</span>站姿轉身傳物 <span class="lv l4">L4</span>走路中轉身、Pallof 抗旋轉</td><td>多方位：前、後、左、右、轉；腳先轉、身體跟著轉</td></tr>
+  <tr><td class="k">蹲撿／雙手搬運</td><td>撿掉落物、搬貨、拿購物籃</td><td><span class="lv l1">L1</span>坐姿撿椅旁高物 <span class="lv l2">L2</span>撿椅面上的物品 <span class="lv l3">L3</span>撿地上的物品 <span class="lv l4">L4</span>雙手搬箱走一段放上架</td><td>用視覺化提示（顏色貼紙標位置）；髖部往後、東西貼近身體</td></tr>
+  <tr><td class="k">手部推拉</td><td>開門、推車、拉抽屜、拖地</td><td><span class="lv l1">L1</span>坐姿推掌、拉毛巾 <span class="lv l2">L2</span>推牆 <span class="lv l3">L3</span>彈力帶划船、上推 <span class="lv l4">L4</span>推推車、雙人拉繩</td><td>軀幹穩定、善用道具；不憋氣，「出力吐氣」</td></tr>
+  <tr><td class="k">腳部跳躍</td><td>骨密度、反應、跨越水溝</td><td><span class="lv l1">L1</span>坐姿墊腳尖 <span class="lv l2">L2</span>站姿扶椅墊腳尖 <span class="lv l3">L3</span>原地小跳 <span class="lv l4">L4</span>前後左右跳格子</td><td>爆發力＝力量×速度；骨鬆、過重、唐氏症頸椎問題者以墊腳尖替代</td></tr>
+</table></div>
+<div class="box a">
+  <b>作業所就是最好的訓練場：</b>把「工作任務」拆成功能性動作來練——搬料（蹲撿＋搬運）、擦桌（延伸＋旋轉）、推回收車（推拉＋走路）、上架（深蹲＋延伸）。學員練得到、也用得到，訓練動機更高。
+</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/functional-training-lesson/" target="_blank" rel="noopener">功能性訓練衛教動畫</a>
+  <a class="lk" href="https://mattsue1003.github.io/band-exercise-database/" target="_blank" rel="noopener">彈力帶動作資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/location-named-fitness-database/" target="_blank" rel="noopener">跟著動作環遊世界</a>
+  <a class="lk" href="https://mattsue1003.github.io/bodysoreproblemlearn/" target="_blank" rel="noopener">痠痛問題影片資料庫</a>
+</div>
+</section>
+
+<!-- ============ 5 ============ -->
+<section id="s5">
+<h2>5　現場應用：團體與個別活動規劃<small>差異這麼大，怎麼帶？</small></h2>
+
+<h3>先看「遊戲能力」再分層：從人類發展看活動帶領</h3>
+<div class="flow">
+  <div><b>感覺動作</b>摸、拍、丟、聽<br><small>破冰・最基礎</small></div><i>→</i>
+  <div><b>動作操作</b>拿、放、傳、疊<br><small>入門引導</small></div><i>→</i>
+  <div><b>配對分類</b>找相同、分顏色<br><small>多數學員的主活動</small></div><i>→</i>
+  <div><b>規則遊戲</b>輪流、計分、勝負<br><small>主活動進階</small></div><i>→</i>
+  <div><b>自主複雜</b>自己決定、帶領別人<br><small>小老師角色</small></div>
+</div>
+<p>同一個團體裡，學員可能分布在不同層級。<b>活動設計時，要讓每個層級都有事做</b>，而不是用中間程度「一套帶全部」。</p>
+
+<h3>團體活動規劃：同一活動、三種參與層次</h3>
+<div class="box t">
+  <h4>範例：「小作所便利商店」60 分鐘</h4>
+  <div class="tblwrap"><table>
+    <tr><th style="width:15%">層次</th><th>任務</th><th style="width:26%">練到什麼</th></tr>
+    <tr><td><span class="lv l1">A 補貨員</span></td><td>坐著把商品依顏色放進籃子（配對）；搬一籃走到貨架</td><td>感覺動作、配對、搬運、走路</td></tr>
+    <tr><td><span class="lv l2">B 顧客</span></td><td>拿 3 張購物圖卡，走到貨架蹲下找到商品（線索＋蹲撿），回來排好</td><td>記憶、線索、蹲撿、平衡</td></tr>
+    <tr><td><span class="lv l3">C 店員</span></td><td>幫顧客結帳：算總價、用錢幣組合找錢、說「謝謝光臨」</td><td>組合、計算、規則、社交</td></tr>
+  </table></div>
+  <p class="cite">換角色輪流做，A 可以在協助下嘗試 B，C 也要當一次補貨員——角色有成功、有挑戰。</p>
+</div>
+
+<h3>帶領的三部曲與結構化</h3>
+<div class="flow">
+  <div><b>暖身・喚醒</b>現實導向（今天日期、天氣）＋ 伸展、節奏遊戲<br><small>10 分</small></div><i>→</i>
+  <div><b>主體・高峰</b>具體、動靜態交替、可達成、有意義<br><small>35–40 分</small></div><i>→</i>
+  <div><b>緩和・降落</b>讚美、喝水、按摩球放鬆、收心<br><small>10 分</small></div>
+</div>
+<div class="grid2">
+  <div class="box">
+    <h4>結構化（特別是自閉症學員）</h4>
+    <ul>
+      <li><b>視覺流程表</b>：今天做什麼、做完打勾</li>
+      <li><b>固定開場儀式</b>與結束訊號（同一首歌）</li>
+      <li>計時器看得見「還剩多久」</li>
+      <li>固定位置、地上貼腳印或顏色標記</li>
+      <li>音樂音量降低，提供「休息角」</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h4>五種提示，由少到多或由多到少</h4>
+    <ol>
+      <li>口語提示：「我們站起來」</li>
+      <li>視覺提示：圖卡、顏色標記</li>
+      <li>手勢提示：指方向、比數字</li>
+      <li>示範提示：老師做一次</li>
+      <li>肢體提示：輕扶、引導動作</li>
+    </ol>
+    <p class="cite">新動作可以從多提示開始，逐步減少；熟悉的動作先給最少提示，做不到再增加。</p>
+  </div>
+</div>
+<div class="box o">
+  <b>溝通魔法：給選擇，不給命令</b><br>
+  NG：「你不准坐著！」「快一點！」<br>
+  OK：「你要用紅色彈力帶還是藍色？」「要先踏步還是先拍手？」「再做 3 下就休息喝水，好不好？」<br>
+  <span class="cite">提供選擇的方式：封閉式 → 邀請式 → 選擇題 → 視覺化（指圖卡選）。讓學員有掌控感，參與度自然提高。</span>
+</div>
+<div class="box">
+  <h4>人力與站位</h4>
+  <ul>
+    <li>主帶領者在前方示範；助理人員站在<b>需要較多協助的學員旁</b>或後方。</li>
+    <li>能力好的學員安排為<b>小老師</b>，負責發道具、示範、計分。</li>
+    <li>坐姿組與站姿組可同時進行同一首歌，<b>動作節奏一致、版本不同</b>。</li>
+  </ul>
+</div>
+
+<h3>個別活動規劃：五步驟</h3>
+<div class="flow">
+  <div><b>① 評估</b>能力＋興趣＋生活需求</div><i>→</i>
+  <div><b>② 目標</b>SMART，指向生活或工作</div><i>→</i>
+  <div><b>③ 活動分析</b>拆步驟、找卡關點</div><i>→</i>
+  <div><b>④ 分級練習</b>轉難度旋鈕</div><i>→</i>
+  <div><b>⑤ 紀錄調整</b>完成／部分完成／未執行</div>
+</div>
+<div class="tblwrap"><table>
+  <tr><th style="width:24%">簡易評估</th><th>做法</th><th style="width:30%">看什麼</th></tr>
+  <tr><td class="k">30 秒坐站</td><td>雙手交叉胸前，30 秒內完整坐站次數</td><td>下肢肌力、耐力</td></tr>
+  <tr><td class="k">單腳站立</td><td>左右腳各計秒數（最多 30 秒，旁邊有人保護）</td><td>靜態平衡</td></tr>
+  <tr><td class="k">起立走（TUG）</td><td>從椅子站起、走 3 公尺、轉身走回坐下的秒數</td><td>行動力、跌倒風險</td></tr>
+  <tr><td class="k">2 分鐘原地踏步</td><td>膝蓋抬到大腿中間高度，計次數</td><td>心肺耐力</td></tr>
+  <tr><td class="k">功能性觀察</td><td>做一次實際工作任務（搬一箱、擦一張桌子）</td><td>動作模式、步驟順序、需要的提示量</td></tr>
+</table></div>
+<p class="cite">每 3 個月重測一次，用同一張紀錄表追蹤；給學員看自己的進步（貼紙、圖表）也是很好的動機。</p>
+
+<h3>三位學員的個別化示範（虛擬個案）</h3>
+<div class="grid3">
+  <div class="box person">
+    <h4>阿明｜34 歲・唐氏症</h4>
+    <p><b>現況：</b>體重過重、愛吃點心、坐站要扶手。</p>
+    <p><b>目標：</b>3 個月內不扶手坐站 10 下。</p>
+    <p><b>活動：</b>每天三個時段坐站運動點心；「紅綠燈點心遊戲」練抑制；跳躍改墊腳尖。</p>
+  </div>
+  <div class="box person">
+    <h4>小芸｜27 歲・自閉症</h4>
+    <p><b>現況：</b>肢體能力好，但團體時摀耳、離開座位。</p>
+    <p><b>目標：</b>能在團體中完成 20 分鐘律動。</p>
+    <p><b>活動：</b>視覺流程表＋耳罩；擔任發道具小老師；喜歡火車 → 「火車排隊」排序遊戲。</p>
+  </div>
+  <div class="box person">
+    <h4>阿傑｜45 歲・多重障礙</h4>
+    <p><b>現況：</b>智能障礙合併左側輕度偏癱，走路慢、易跌。</p>
+    <p><b>目標：</b>能自己從座位走到作業區、搬一箱材料。</p>
+    <p><b>活動：</b>扶桌弓箭步、交替踏椅、農夫走路（右手提輕物）；坐姿版體智遊戲。</p>
+  </div>
+</div>
+
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/activitiesgroup/" target="_blank" rel="noopener">團康及藝術活動</a>
+  <a class="lk" href="https://mattsue1003.github.io/group-building-games/" target="_blank" rel="noopener">團體建立遊戲</a>
+  <a class="lk" href="https://reurl.cc/4g4Kev" target="_blank" rel="noopener" data-short="reurl.cc/4g4Kev">一百種團康遊戲示範</a>
+  <a class="lk" href="https://mattsue1003.github.io/participation-interaction-database/" target="_blank" rel="noopener">社會參與教案資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/online-course-disabilities/" target="_blank" rel="noopener">身心障礙支持服務五單元</a>
+</div>
+
+<h3>分組演練（16:00–16:25）</h3>
+<div class="box t">
+  <ol>
+    <li>每組選一個<b>作業所的真實任務</b>（例如包裝、清潔、午餐準備）。</li>
+    <li>拆出其中的<b>功能性動作</b>（八大動作中的哪幾個）與<b>功能性認知</b>（配對、組合、排序、線索）。</li>
+    <li>設計一個 15 分鐘的團體活動，寫出 <span class="lv l1">A</span><span class="lv l2">B</span><span class="lv l3">C</span> 三種參與層次。</li>
+    <li>寫出一個安全提醒、一個給學員的「選擇題」。</li>
+  </ol>
+</div>
+</section>
+
+<!-- ============ 資源 ============ -->
+<section id="res">
+<h2>資源連結總表<small>研習後可以繼續使用的工具</small></h2>
+
+<div class="linklabel">運動與體能</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/exercisemovdara/" target="_blank" rel="noopener">樂齡運動教案資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/band-exercise-database/" target="_blank" rel="noopener">彈力帶・椅子動作資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/coremuscle/" target="_blank" rel="noopener">核心訓練影片資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/3d-core-muscle/" target="_blank" rel="noopener">3D 核心訓練</a>
+  <a class="lk" href="https://mattsue1003.github.io/follow-jogging-db/" target="_blank" rel="noopener">超慢跑跟跑</a>
+  <a class="lk" href="https://mattsue1003.github.io/danaerobic/" target="_blank" rel="noopener">舞蹈有氧</a>
+  <a class="lk" href="https://mattsue1003.github.io/finger-database/" target="_blank" rel="noopener">手指操・雙側協調操</a>
+  <a class="lk" href="https://mattsue1003.github.io/balance-exercise-guide/" target="_blank" rel="noopener">平衡訓練圖解</a>
+  <a class="lk" href="https://mattsue1003.github.io/functional-training-lesson/" target="_blank" rel="noopener">功能性訓練互動課</a>
+</div>
+
+<div class="linklabel">體智能</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/cognicise-database/" target="_blank" rel="noopener">體智共創教案資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/cogniciseanimation/" target="_blank" rel="noopener">體智動畫</a>
+  <a class="lk" href="https://mattsue1003.github.io/cognitive-reaction-animation/" target="_blank" rel="noopener">反應動作動畫</a>
+  <a class="lk" href="https://mattsue1003.github.io/rhythmexercise/" target="_blank" rel="noopener">律動產生器</a>
+  <a class="lk" href="https://mattsue1003.github.io/beatgame2/" target="_blank" rel="noopener">節拍遊戲</a>
+  <a class="lk" href="https://mattsue1003.github.io/upperlowerlimb/" target="_blank" rel="noopener">上下肢動作配對</a>
+  <a class="lk" href="https://mattsue.my.canva.site/dagq8wvozmy" target="_blank" rel="noopener">體智活動網站</a>
+</div>
+
+<div class="linklabel">功能性認知與執行功能</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/memorygame/" target="_blank" rel="noopener">記憶翻牌</a>
+  <a class="lk" href="https://mattsue1003.github.io/3x3number/" target="_blank" rel="noopener">3×3 組合</a>
+  <a class="lk" href="https://mattsue1003.github.io/numberorder/" target="_blank" rel="noopener">數字排序</a>
+  <a class="lk" href="https://mattsue1003.github.io/findgame/" target="_blank" rel="noopener">找找看</a>
+  <a class="lk" href="https://mattsue1003.github.io/shopping/" target="_blank" rel="noopener">超市購物計算</a>
+  <a class="lk" href="https://mattsue1003.github.io/inhibition" target="_blank" rel="noopener">抑制功能</a>
+  <a class="lk" href="https://mattsue1003.github.io/executivefunction/" target="_blank" rel="noopener">執行功能密碼轉換</a>
+  <a class="lk" href="https://mattsue1003.github.io/attentiontrain/" target="_blank" rel="noopener">團體注意力訓練營</a>
+  <a class="lk" href="https://mattsue1003.github.io/cancellationtask/" target="_blank" rel="noopener">專注力尋寶</a>
+  <a class="lk" href="https://mattsue1003.github.io/connecting-block-toys/" target="_blank" rel="noopener">連接方塊 3D 題庫</a>
+</div>
+
+<div class="linklabel">懷舊與團康</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/old-story-interaction/" target="_blank" rel="noopener">懷舊活動資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/pop-song-guess/" target="_blank" rel="noopener">流行金曲猜歌</a>
+  <a class="lk" href="https://mattsue1003.github.io/taiwan-story-cards/" target="_blank" rel="noopener">台灣重要事件圖卡</a>
+  <a class="lk" href="https://mattsue1003.github.io/boardgame100/" target="_blank" rel="noopener">桌遊 100</a>
+  <a class="lk" href="https://mattsue1003.github.io/daycare-activity-library/" target="_blank" rel="noopener">活動 YouTube 資料庫</a>
+  <a class="lk" href="https://mattsue1003.github.io/japan-dayservice-activity-videos/" target="_blank" rel="noopener">日本團康體操影片</a>
+  <a class="lk" href="https://mattsue1003.github.io/balloon-twisting-lessons/" target="_blank" rel="noopener">折氣球互動教案</a>
+  <a class="lk" href="https://mattsue1003.github.io/art-senior-database/" target="_blank" rel="noopener">藝術活動資料庫</a>
+</div>
+
+<div class="linklabel">健康與慢性病</div>
+<div class="links">
+  <a class="lk" href="https://mattsue1003.github.io/chronic-disease-health-education/" target="_blank" rel="noopener">慢性病互動教學</a>
+  <a class="lk" href="https://mattsue1003.github.io/food-label-guide/" target="_blank" rel="noopener">食品標籤這樣看</a>
+  <a class="lk" href="https://mattsue1003.github.io/preventing-sarcopenia/" target="_blank" rel="noopener">預防肌少症</a>
+  <a class="lk" href="https://mattsue1003.github.io/dementia-risk-reduction-2026/html/index.html" target="_blank" rel="noopener">WHO 失智風險指南</a>
+</div>
+
+<h3>參考資料</h3>
+<p class="cite">World Health Organization (2020). WHO guidelines on physical activity and sedentary behaviour.<br>
+Herold, F. et al. (2018). Thinking while moving or moving while thinking – concepts of motor-cognitive training for cognitive performance enhancement. <i>Frontiers in Aging Neuroscience</i>.<br>
+Kawashima, R. 等（2003）學習療法：讀寫與計算對認知功能之研究。<br>
+Livingston, G. et al. (2024). Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission.<br>
+Movement Assessment Technologies (MAT) 功能性動作分類；島田裕之《體智活動》相關著作。</p>
+
+<div class="foot">
+  <b>愛迪樂｜鍾孟修 職能治療師</b>　愛迪樂健康促進團隊<br>
+  <a href="https://www.facebook.com/chungmenghsiu" target="_blank" rel="noopener">個人臉書</a>　｜　<a href="https://www.facebook.com/profile.php?id=100063748491881" target="_blank" rel="noopener">愛迪樂粉絲專頁</a><br>
+  本講義供伊甸汐止小作所研習使用；個案為教學用虛擬案例。運動前請依學員健康狀況與醫囑調整。
+</div>
+</section>
+</main>
+</div>
+
+<button class="printbtn noprint" onclick="window.print()">列印 A4</button>
+
+<script>
+(function(){
+  var mv={1:'坐姿踏步',2:'站著扶椅踏步',3:'站姿 V 字步',4:'登階／繩梯前進'};
+  var cg={0:'',1:'，一邊跟著老師喊 1 到 10',2:'，一邊念 12 生肖（或星期一到日）',3:'，一邊倒著念',4:'，一邊數數，數到 3 的倍數就拍手不出聲'};
+  var gm=document.getElementById('gMove'),gc=document.getElementById('gCog');
+  function upd(){
+    var m=+gm.value,c=+gc.value,s=m+c,p=Math.round(s/8*100);
+    document.getElementById('gText').innerHTML='<b>指令：</b>'+mv[m]+cg[c]+'。';
+    document.getElementById('gBar').style.width=p+'%';
+    var a;
+    if(m>=3&&c>=3)a='⚠ 兩邊都難：違反「簡單運動＋主要思考／簡單思考＋主要運動」，請降低其中一項。';
+    else if(s<=2)a='入門等級：適合剛開始、能力較弱或坐姿學員，目標是成功與愉快。';
+    else if(s<=4)a='主活動等級：多數學員可參與；成功 2–3 次後，只轉一個旋鈕往上調。';
+    else a='挑戰等級：適合能力較好的學員或小老師；旁邊安排人員保護平衡。';
+    document.getElementById('gAdv').textContent='綜合難度 '+s+'／8　'+a;
+  }
+  gm.onchange=gc.onchange=upd;upd();
+  // toc highlight
+  var links=[].slice.call(document.querySelectorAll('nav.toc a'));
+  var obs=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(l){l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'0px 0px -75% 0px'});
+  links.forEach(function(l){var t=document.querySelector(l.getAttribute('href'));if(t)obs.observe(t)});
+})();
+</script>
+</body>
+</html>
